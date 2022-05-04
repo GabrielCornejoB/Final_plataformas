@@ -18248,6 +18248,29 @@ form.signin-form {
 .form-register{
   padding:16px;
 }
+.img-wpp{
+    
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 99;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+  
+    padding: 0;
+    line-height: 30px;
+    border-radius: 6px;
+    transition: 0.5s ease-out;
+}
+#svg-wpp{
+  width:100%;
+}
+
 input[type=text], input[type=email] ,input[type=password] {
   width: 100%;
   padding: 15px;
