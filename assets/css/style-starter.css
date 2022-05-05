@@ -14020,8 +14020,10 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #FFDC22;
-  --secondary-color: #E6BF00;
+  /* --primary-color: #FFDC22; cambio color */
+  --primary-color: var(--purple);
+  /* --secondary-color: #E6BF00; cambio color  */
+  --secondary-color: var(--purple);
   --font-color: #787e92;
   --bg-color: #fff;
   --heading-color: #232735;
@@ -14037,8 +14039,10 @@ a.text-dark:focus {
 }
 
 [data-theme="dark"] {
-  --primary-color: #E6BF00;
-  --secondary-color:#E6BF00;
+  /* --primary-color: #E6BF00; cambio color */
+  --primary-color: var(--purple);
+  /* --secondary-color:#E6BF00; */
+  --secondary-color: var(--purple);
   --font-color: #afafaf;
   --bg-color: #0b0d0e;
   --footer-bg: #000000;
@@ -18269,11 +18273,6 @@ form.signin-form {
 }
 #svg-wpp{
   width:100%;
-}
-
-
-#chosen{
-  color: #007bff;
 }
 
 input[type=text], input[type=email] ,input[type=password] {
