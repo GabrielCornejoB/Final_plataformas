@@ -16,9 +16,11 @@ Author URL: http://w3layouts.com
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <!-- Template CSS -->
+    <script src="./assets/js/nav.js"></script>
+
   </head>
   
-  <body>
+  <body onload="ValidateUsr()">
     <!--header-->
   <header id="site-header" class="fixed-top">
     <div class="container">
@@ -39,17 +41,19 @@ Author URL: http://w3layouts.com
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mx-lg-auto">
+          <ul class="navbar-nav mx-lg-auto" id="lista-menu">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">Programación<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="programacion.html">Programación<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Artistas invitados</a>
+              <a class="nav-link" href="artistas.html">Artistas invitados</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="api.html">Contenido API</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="register.html">Registro / Inicio sesion</a>
             </li>

@@ -4,7 +4,7 @@ function validate() {
     if(typeof(Storage) !== 'undefined'){
         /* Checking if the user is logged in or not. */
         if(sessionStorage.getItem('aux') == 'true'){
-            alert('Contenido de API');
+            alert('Contenido de API'); //Debug
         }else{
             alert('Debe iniciar sesión para ver esta página');
             window.location.href = "register.html";
