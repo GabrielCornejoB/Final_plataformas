@@ -19,6 +19,8 @@ function Login() {
             if(credenciales.contraseña == md5(contraseña_revisar)){
                 alert("Bienvenido, "+credenciales.nombre);
                 sessionStorage.setItem("aux", true); //Si aux es true significa que el usuario esta logeado   
+            }else{
+                alert("Contraseña incorrecta")
             }
         }else{
             alert("Usuario no existe");
