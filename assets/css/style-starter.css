@@ -18238,7 +18238,7 @@ form.signin-form {
 .container-register{
   
   box-shadow: grey;
-  background-color: #0c5460;
+  background-color: var(--purple);    
   border-radius: 5px;
   margin: auto;
   margin-top:5%;
@@ -18274,6 +18274,8 @@ form.signin-form {
 #svg-wpp{
   width:100%;
 }
+
+
 
 input[type=text], input[type=email] ,input[type=password] {
   width: 100%;
@@ -18344,4 +18346,10 @@ input[type=submit]:hover{
   }
 }
 
+.txt_reg{
+  color:white;
+}
+.txt_alt{
+  color: yellow;
+}
 /*# sourceMappingURL=style-freedom.css.map */
