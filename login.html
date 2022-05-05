@@ -17,21 +17,21 @@
  <!-- Contenedor para alojar formulario de registro -->
   <div class="container-register">
     <div class="title-register">
-        <h3>Iniciar sesion</h3>
+        <h3 class="txt_reg">Iniciar sesion</h3>
     </div>
     <div class="form-container">
         <form class="form-register"  action="index.html" onsubmit="Login()">
             <div class="input-register">
                 
-                <label for="email" ><p>Correo</p></label>
+                <label for="email" ><p class="txt_reg">Correo</p></label>
                 <input type="email" id="email" name="email" placeholder="Correo" required><br>
-                <label for="password"><p>Contraseña</p></label>
+                <label for="password"><p class="txt_reg">Contraseña</p></label>
                 <input type="password" id="password" placeholder="Contraseña" required><br>
                 <input type="submit">
             </div>
             <div class="container-signin">
-                <p>No tiene cuenta? <a href="register.html">Registrarse</a></p><br>
-                <p><a href="index.html">Volver</a></p>
+                <p class="txt_alt">No tiene cuenta? <a class="txt_reg" href="register.html">Registrarse</a></p>
+                <p><a class="txt_reg" href="index.html">Volver</a></p>
             </div>
         </form>
     </div>
