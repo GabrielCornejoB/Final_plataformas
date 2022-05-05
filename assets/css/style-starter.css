@@ -18271,6 +18271,12 @@ form.signin-form {
   width:100%;
 }
 
+
+/* Setting the background color of the active menu page to a light blue. */
+#chosen{
+  background-color: #91c0dd;
+}
+
 input[type=text], input[type=email] ,input[type=password] {
   width: 100%;
   padding: 15px;
