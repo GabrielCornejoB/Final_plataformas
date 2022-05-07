@@ -5,29 +5,29 @@ var iniciarLogin = undefined, iniciarRegistro = undefined;
 
 const menu_html = `
 <li class="nav-item">
-<a class="nav-link" href="javascript:void(0);" id="item_1">Home</a>
+<a class="nav-link" href="javascript:void(0); " id="item_1" >Home</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="javascript:void(0);" id="item_2">Programación</a>
+<a class="nav-link" href="javascript:void(0); " id="item_2" >Programación</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="javascript:void(0);" id="item_3">Artistas invitados</a>
+<a class="nav-link" href="javascript:void(0); " id="item_3" >Artistas invitados</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="javascript:void(0);" id="item_4">Contenido API</a>
+<a class="nav-link" href="javascript:void(0); " id="item_4" >Contenido API</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="javascript:void(0);" id="item_5">Registro / Inicio sesion</a>
+<a class="nav-link" href="javascript:void(0); " id="item_5" >Registro / Inicio sesion</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" id="estado-usr" href="register.html"></a>
+<a class="nav-link" id="estado-usr" href="javascript:void(0)"></a>
 </li>
 `;
 
 window.onload = function(){
+
     contenedor_menu = document.querySelector("#lista-menu");
     contenedor_menu.innerHTML = menu_html;
-    setTimeout(hideURLbar, 0);
 
     asignarNavegacion();
 }
@@ -51,9 +51,6 @@ function asignarNavegacion(){
     }
 }
 
-function hideURLbar() {
-    window.scrollTo(0, 1);
-}
 
 function abrirPagina(evento){
     location.href = paginas[evento.target.id];
