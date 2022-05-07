@@ -18352,4 +18352,51 @@ input[type=submit]:hover{
 .txt_alt{
   color: yellow;
 }
+
+.ctn_artistas{
+  width: 100%;
+  text-align: center;
+}
+.galeria_artistas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 40px;
+}
+.pic{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px lightgray;
+} 
+.pic img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px lightgray;
+}
+.pic_overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.pic_overlay:hover{
+  opacity: 1;
+}
+.pic_txt{
+  color: white;
+}
 /*# sourceMappingURL=style-freedom.css.map */
