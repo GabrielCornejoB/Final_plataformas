@@ -18403,11 +18403,5 @@ input[type=submit]:hover{
 .actuacion span{
   color: var(--purple);
 }
-.api5{
-  padding-top: 200px;
-  position: relative;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
+
 /*# sourceMappingURL=style-freedom.css.map */

@@ -9,84 +9,32 @@
         <link href="//fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
         <!-- google fonts -->
         <!-- Template CSS -->
-        <link rel="stylesheet" href="assets/css/style-starter.css">
+        <link rel="stylesheet" href="assets/css/api.css">
         <!-- Template CSS -->
         <script src="./assets/js/api.js"></script>
         <script src="./assets/js/nav.js"></script>
+        
     
       </head>
 <body>
-    <header id="site-header" class="fixed-top">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg stroke">
-            <h1><a class="navbar-brand mr-lg-5" href="index.html">
-                <span>SSG</span> Fest
-              </a></h1>
-            <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-              data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-              <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-              </span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mx-lg-auto" id="lista-menu">
-                
-              </ul>
-            </div>
-            <!-- toggle switch for light and dark theme -->
-            <div class="mobile-position">
-              <nav class="navigation">
-                <div class="theme-switch-wrapper">
-                  <label class="theme-switch" for="checkbox">
-                    <input type="checkbox" id="checkbox">
-                    <div class="mode-container">
-                      <i class="gg-sun"></i>
-                      <i class="gg-moon"></i>
-                    </div>
-                  </label>
-                </div>
-              </nav>
-            </div>
-            <!-- //toggle switch for light and dark theme -->
-          </nav>
+    <div class='header'>
+        <h1>Random Image Generator!</h1>
+      </div>
+      <div class="container">
+        <div class='images'>
+          <div id='dog-img'>
+            <p>Placeholder Image</p>
+          </div>
+          <div id='cat-img'>
+            <p>Placeholder Image</p>
+          </div>  
         </div>
-    </header>
-
-    <!-- API usada: https://codepen.io/panhiathao/pen/Exjvxbw -->
-
-    
-    <section class="api5">
-        <img id="pic" src="https://i.pinimg.com/originals/ab/4d/e0/ab4de08ece783245be1fb1f7fde94c6f.gif"/>
-      <br />
-      <input id="searchSong" type="text" placeholder="Artist Search" />
-      <button onclick="searchButton()">SEARCH</button>
-    </section>
-    <section >
-        Name of song <p id="songs"></p>
-         <a id="first" target="_blank"><p id="one"></p><a/>
-           <article id="a"></article>
-           <img id="o"/>
-           
-         <a id="second" target="_blank"><p id="two"></p></a>
-           <article id="b"></article>
-           <img id="t"/>
-           
-         <a id="third" target="_blank"><p id="three"></p></a>
-           <articl id="c"></article>
-           <img id="th"/>
-           
-         <a id="fourth" target="_blank"><p id="four"></p></a>
-           <article id="d1"></article>
-           <img id="f"/>
-           
-         <a id="fifth" target="_blank"><p id="five"></p></a>
-           <article id="e1"></article>
-           <img id="fi"/>
-  
-      </section>
-    
-    <script src="assets/js/centralizacion.js"></script>
+      
+        <div class='buttons'>
+          <button id='btn-dog'>Random DOG!</button> 
+          <button id='btn-cat'>Random CAT!</button> 
+        </div>   
+      </div>
+      <script src="./assets/js/apiFacha.js"></script>
 </body>
 </html>
