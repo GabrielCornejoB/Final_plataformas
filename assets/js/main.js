@@ -1,3 +1,7 @@
+let contenedor_menu;
+let paginas = [];
+
+
 jQuery(document).ready(function($){
 	//update these values if you change these breakpoints in the style.css file (or _layout.scss if you use SASS)
 	var MqM= 768,
