@@ -18399,4 +18399,9 @@ input[type=submit]:hover{
 .pic_txt{
   color: white;
 }
+
+.actuacion span{
+  color: var(--purple);
+}
+
 /*# sourceMappingURL=style-freedom.css.map */
